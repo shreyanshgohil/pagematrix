@@ -25,7 +25,7 @@ export default function Home() {
       <div
         className={`${styles.page} ${geistSans.variable} ${geistMono.variable}`}
       >
-        <main className={styles.main}>
+        <main className="">
           <Image
             className={styles.logo}
             src="/next.svg"
