@@ -369,7 +369,7 @@ export default function BlogPost() {
 
                 {/* Sidebar */}
                 <div className="lg:col-span-1">
-                  <div className="sticky top-8 space-y-6">
+                  <div className="sticky top-20 space-y-6 z-10">
                     {/* Author Card */}
                     <div className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100">
                       <div className="text-center">

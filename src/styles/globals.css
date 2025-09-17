@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Header offset utilities */
+@layer utilities {
+  .header-offset {
+    margin-top: 4rem; /* 64px - height of header */
+  }
+
+  .sticky-below-header {
+    top: 5rem; /* 80px - header height + some spacing */
+  }
+}
